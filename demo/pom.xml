@@ -147,7 +147,9 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
 		</plugins>
+		<finalName>spring-boot-docker</finalName>
 		<resources>
         <resource>
             <directory>src/main/resources</directory>
