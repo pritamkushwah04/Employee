@@ -4,34 +4,22 @@ import lombok.Setter;
 
 @Getter @Setter
 public class Employee {
+	
+   @Getter
+   @Setter
    private int eID;
+	
+   @Getter
+   @Setter
    private String eName;
+	
+   @Getter
+   @Setter
    private String eProfile;
+	
+   @Getter
+   @Setter
    private String eAddress;
-public int geteID() {
-	return eID;
-}
-public void seteID(int eID) {
-	this.eID = eID;
-}
-public String geteName() {
-	return eName;
-}
-public void seteName(String eName) {
-	this.eName = eName;
-}
-public String geteProfile() {
-	return eProfile;
-}
-public void seteProfile(String eProfile) {
-	this.eProfile = eProfile;
-}
-public String geteAddress() {
-	return eAddress;
-}
-public void seteAddress(String eAddress) {
-	this.eAddress = eAddress;
-}
 }
 
 
